@@ -1,5 +1,5 @@
 # sls-unit-test
-Examples of unit and integration testing
+Examples of unit and integration tests
 
 ## Examples from
 These examples are from these videos:
@@ -8,7 +8,12 @@ These examples are from these videos:
 
 ## Scripts
 Run on terminal
-`npm run test`
-`npm run test-integrations`
+```bash
+npm run test
+
+```
+```bach
+npm run test-integrations
+```
 
 *OBS: you need to deploy on aws this project to run integration test*
