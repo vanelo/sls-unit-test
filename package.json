@@ -1,0 +1,19 @@
+{
+  "name": "sls-unit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "scripts": {
+    "test": "jest unit-tests/*",
+    "test-integrations": "jest integration-tests/* --env=node"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "aws-sdk": "^2.1008.0",
+    "jest": "^27.2.5",
+    "lodash": "^4.17.21",
+    "test": "^0.6.0"
+  }
+}
